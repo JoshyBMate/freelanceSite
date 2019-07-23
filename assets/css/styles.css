@@ -198,20 +198,30 @@ section:not(.hero):nth-child(even) {
   width: 100%;
   justify-content: center;
 }
+.profile .grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 
-.destinations .grid li {
+}
+
+.profile .grid li {
   height: 350px;
   padding: 20px;
-  background-clip: content-box;
   background-position: center;
+
 }
 
-.destinations .grid li.small {
-  flex-basis: 30%;
+.profile-img {
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 30px;
 }
 
-.destinations .grid li.large {
-  flex-basis: 70%;
+.profile .grid li.profile-info {
+
 }
 
 @media only screen and (max-width: 1100px) {
@@ -256,6 +266,8 @@ section:not(.hero):nth-child(even) {
 
 .packages .grid li .grid-sub li {
   flex-basis: 100%;
+  padding: 25px;
+  padding-bottom: 0;
 }
 
 .packages .grid li i {

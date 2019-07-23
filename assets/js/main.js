@@ -1,4 +1,4 @@
-$(".btn").click(function() {
+$(".call-to-action-btn").click(function() {
   var posToScroll = $("#contact").position();
   $("html,body").animate({
     scrollTop: posToScroll.top
