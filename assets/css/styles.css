@@ -226,18 +226,15 @@ section:not(.hero):nth-child(even) {
 
 @media only screen and (max-width: 1100px) {
 
-  .destinations .grid li.small,
-  .destinations .grid li.large {
-    flex-basis: 50%;
-  }
+
 }
 
 @media only screen and (max-width: 800px) {
 
-  .destinations .grid li.small,
-  .destinations .grid li.large {
-    flex-basis: 100%;
-  }
+.profile-img{
+  width: 250px;
+}
+
 }
 
 /* Packages Section */
@@ -286,7 +283,7 @@ section:not(.hero):nth-child(even) {
 @media only screen and (max-width: 800px) {
   .packages .grid li {
     flex-basis: 100%;
-    padding: 20px;
+    padding: 30px;
   }
 }
 
