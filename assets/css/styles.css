@@ -220,10 +220,6 @@ a.btn:hover{
 
 }
 
-.profile .grid li p{
-  text-align: center;
-}
-
 .profile-img {
   width: 300px;
   border-radius: 50%;
@@ -260,7 +256,7 @@ a.btn:hover{
 
 .skills-hide {
   height: auto;
-  max-height: 300px;
+  max-height: 200px;
   overflow: hidden;
 }
 
